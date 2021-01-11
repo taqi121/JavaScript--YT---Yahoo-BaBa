@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let And Const variable </title>
+</head>
+<body>
+    
+    <script>
+
+        //Let Variable Cannot Be Declared Again 
+        
+        /*
+        Shows Error :Uncaught SyntaxError: Identifier 'a' has already been declared
+        */
+
+        let a = "I am Let variable ";
+        let b = "I am Second value";
+        document.write( a);
+
+        document.write("</br>")
+
+        // we cannot ReAssgn To Const variable
+        /*
+        Shows Error :  Identifier 'Second' has already been declared
+        */
+        const Second = " I Am Const Variable"
+        //const Second = " I am Also Const Variable"
+        document.write(Second);
+   
+   
+   </script>
+</body>
+</html>

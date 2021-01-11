@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function With return Value</title>
+</head>
+<body>
+    <script>
+
+        function Name(Fnme ="Talha", Lname="Zubair") {
+            
+            var a = Fnme + " "+ Lname;
+            return a;
+        }
+
+        var fnn = Name("Talha  ", "Zubair")
+
+        document.write(fnn);
+        document.write("</br>");
+        document.write("</br>");
+        document.write("</br>");
+        document.write("</br>");
+        function Subjects (math , eng,urdu) {
+            var s = math + eng + urdu;
+            return s;
+        }
+        function Per(tootal) {
+
+            var perr = tootal/300 *100;
+            
+            document.write(perr);
+        }
+        var total = Subjects(0,100,100);
+        document.write(total);
+        document.write("</br>");
+        document.write("</br>");
+        document.write("</br>");
+        document.write("</br>");
+        Per(total);
+
+
+    </script>
+</body>
+</html>
