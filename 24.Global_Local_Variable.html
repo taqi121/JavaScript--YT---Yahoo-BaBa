@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Global And Local Variable </title>
+</head>
+<body>
+    <script>
+
+        var a = "This Is Global variable : A"; //   Global variable  can Be Access Anywhere   
+
+        function Hello() {
+
+         var B = "This Is Local Variabel : B" // Local Variable Cannot be access Outside Of function
+
+          document.write(a + "</br>" + "</br>");
+        
+          document.write(B + "</br>" + "</br>");
+        }
+
+        Hello();
+
+        document.write(a);
+
+        document.write(B);
+
+
+
+
+
+    </script>
+</body>
+</html>
